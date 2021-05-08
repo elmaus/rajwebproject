@@ -6,94 +6,72 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" stylesheet='text/css' href="main.css">
+    <link rel="stylesheet" href="navbar.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
     <title>Home</title>
 </head>
 <body>
     <div class="container-flex">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                <a class="navbar-brand" href="#">Logo and Name</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active text-uppercase" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="#">about</a>
-                        </li>
-                        
-                        <li class="nav-item bg-dark">
-                            <a class="nav-link text-uppercase" href="#">
-                                international safety courses
-                            </a>
-                            
-                            <ul class="dropdown-menu1">
-                                <li><a class="text-uppercase" href="#">nebosh</a>
-                                    
-                                </li>
-                                <li><a class="text-uppercase" href="#">iosh courses</a></li>
-                                <li><a class="text-uppercase " href="#">ohsms 45001:2008</a></li>
-                                <li><a class="text-uppercase " href="#">ems 14001 lead auditor</a></li>
-                                <li><a class="text-uppercase " href="#">qms 9001 lead auditor</a></li>
-                                <li><a class="text-uppercase " href="#">ios international auditor courses</a></li>
-                                <li><a class="text-uppercase " href="#">othm</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item bg-dark">
-                            <a class="nav-link text-uppercase" href="#">
-                                national safety courses
-                            </a>
-                            
-                            <ul class="dropdown-menu1">
-                                <li><a class="text-uppercase" href="#">nebosh</a></li>
-                                <li class="nav-item2">
-                                    <a class="nav-link text-uppercase" href="#">international safety courses</a>
-                                    <ul class="dropdown-menu2">
-                                        <li><a class="text-uppercase" href="#">nebosh</a></li>
-                                        <li><a class="text-uppercase" href="#">iosh courses</a></li>
-                                        <li><a class="text-uppercase " href="#">ohsms 45001:2008</a></li>
-                                        <li><a class="text-uppercase " href="#">ems 14001 lead auditor</a></li>
-                                        <li><a class="text-uppercase " href="#">qms 9001 lead auditor</a></li>
-                                        <li><a class="text-uppercase " href="#">ios international auditor courses</a></li>
-                                        <li><a class="text-uppercase " href="#">othm</a></li>
+        <div class="navbar1">
+            <div class="logo1">
+                <h1>Logo</h1>
+                <div class="menu1"></div>
+            </div>
+            <ul class=nav1>
+                <li class="tab1"><a href="#">home</a></li>
+                <li class="tab1"><a href="#">about</a></li>
+                <li class="has-menu"><a href="#">international courses<span class='arrowtab'></span></a>
+                    <ul class="submenu1">
+                        <li><a href="#">Course 1</a></li>
+                        <li class="has-menu"><a href="#">Course 2<span class="arrow1"></span></a>
+                            <ul class="submenu1">
+                                <li><a href="#">Course 1</a></li>
+                                <li><a href="#">Course 2</a></li>
+                                <li class="has-menu"><a href="#">Course 3<span class="arrow1"></span></a>
+                                    <ul class="submenu1">
+                                        <li><a href="#">Course 1</a></li>
+                                        <li><a href="#">Course 2</a></li>
+                                        <li><a href="#">Course 3</a></li>
+                                        <li><a href="#">Course 4</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="text-uppercase" href="#">iosh courses</a></li>
-                                <li><a class="text-uppercase " href="#">ohsms 45001:2008</a></li>
-                                <li><a class="text-uppercase " href="#">ems 14001 lead auditor</a></li>
-                                <li><a class="text-uppercase " href="#">qms 9001 lead auditor</a></li>
-                                <li><a class="text-uppercase " href="#">ios international auditor courses</a></li>
-                                <li><a class="text-uppercase " href="#">othm</a></li>
+                                <li><a href="#">Course 4</a></li>
                             </ul>
-                        
-                         
                         </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="#">university program</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="#">iso certificate</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="#">become a partner</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="#">contact us</a>
-                        </li>
+                        <li><a href="#">Course 3</a></li>
+                        <li><a href="#">Course 4</a></li>
                     </ul>
-                </div>
-            </div>
-        </nav>
-
-
+                </li>
+                <li class="has-menu"><a href="#">nattional courses<span class='arrowtab'></span></a>
+                    <ul class="submenu1">
+                        <li><a href="#">Course 1</a></li>
+                        <li class="has-menu"><a href="#">Course 2<span class="arrow1"></span></a>
+                            <ul class="submenu1">
+                                <li><a href="#">Course 1</a></li>
+                                <li><a href="#">Course 2</a></li>
+                                <li class="has-menu"><a href="#">Course 3<span class="arrow1"></span></a>
+                                    <ul class="submenu1">
+                                        <li><a href="#">Course 1</a></li>
+                                        <li><a href="#">Course 2</a></li>
+                                        <li><a href="#">Course 3</a></li>
+                                        <li><a href="#">Course 4</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Course 4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Course 3</a></li>
+                        <li><a href="#">Course 4</a></li>
+                    </ul>
+                </li>
+                <li class="tab1"><a href="#">university program</a></li>
+                <li class="tab1"><a href="#">iso certificate</a></li>
+                <li class="tab1"><a href="#">became a partner</a></li>
+                <li class="tab1"><a href="#">contact us</a></li>
+            </ul>
+            
+        </div>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -167,7 +145,7 @@
         </div>
         
     </div>
-    
+    <script src="navbar.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>
