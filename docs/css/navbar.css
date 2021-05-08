@@ -46,7 +46,6 @@
     right:0px;
 }
 .nav1 li {
-    display:block;
     list-style: none;
 }
 
@@ -213,9 +212,13 @@
         margin:10px 15px;
     }
 
+    .has-menu {
+        padding-right: 0;
+    }
+
     .submenu1 {
         position:relative;
-        width:auto;
+        width:100vw;
         left:10;
         right:0;
         border:none;
@@ -228,10 +231,24 @@
     .submenu1 .submenu1 {
         left:20px;
         width:calc(100vw - 20px);
+        border:yellow;
+    }
+
+    .smenu-bar {
+        width:100vw;
     }
 
     .submenu1 .smenu-bar {
         width:calc(100vw - 20px);
+        left:20px;
+        padding-right:0;
+        margin-right:0;
+        border:1px solid black;
+    }
+
+    .submenu1 .submenu1 .smenu-bar {
+        width:calc(100vw - 40px);
+        padding-right:10px;
     }
 
     .submenu1 .submenu1 .submenu1{
