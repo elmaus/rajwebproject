@@ -102,7 +102,7 @@
     background:var(--ligth);
     display: none;
     width:400px;
-    padding: 10px 0px;
+    padding: 20px 0px;
     transition:visibility .3ms ease-in-out;
     border:solid 1px grey;
     border-radius: 4px;
