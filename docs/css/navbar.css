@@ -29,6 +29,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-bottom:10px;
 }
 
 .logo1 h1 {
@@ -58,6 +59,9 @@
     font-weight: 700;
 }
 
+.tab1 a {
+    text-transform:uppercase;
+}
 
 .arrowtab {
     position:relative;
