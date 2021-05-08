@@ -170,6 +170,9 @@
     
     .nav1 {
         display:none;
+        flex-direction: column;
+        width:100vw;
+        padding-left:0px;
     }
 
     .menu1 {
@@ -201,10 +204,6 @@
 
     }
 
-    .nav1 {
-        flex-direction: column;
-        width:100vw;
-    }
 
     .nav1 a {
         margin:10px 15px;
