@@ -145,7 +145,7 @@
     transform:translateX(-800px);
 }
 
-.nav1 a:hover {
+.nav1 > a:hover {
     color:white;
 }
 
@@ -231,7 +231,7 @@
     .submenu1 .submenu1 {
         left:20px;
         width:calc(100vw - 20px);
-        border:yellow;
+    
     }
 
     .smenu-bar {
@@ -243,7 +243,6 @@
         left:20px;
         padding-right:0;
         margin-right:0;
-        border:1px solid black;
     }
 
     .submenu1 .submenu1 .smenu-bar {
@@ -263,6 +262,11 @@
     .arrowtab {
         position:absolute;
         right:20px;
+    }
+
+    .smenu-bar:hover {
+        background-color:var(--ligth);
+        color:var(--dark);
     }
 
     .submenu1 li .smenu-bar:hover {
