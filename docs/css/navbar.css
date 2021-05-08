@@ -217,10 +217,15 @@
         border:none;
         padding-top:0;
         padding-bottom:0;
+        box-shadow: none;
     }
 
     .submenu1 .submenu1 {
         left:20px;
+        width:calc(100vw - 20px);
+    }
+
+    .submenu1 .smenu-bar {
         width:calc(100vw - 20px);
     }
 
