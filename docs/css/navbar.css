@@ -248,4 +248,14 @@
         right:20px;
     }
 
+    .submenu1 li .smenu-bar:hover {
+        background-color:var(--ligth);
+        color:var(--dark);
+    }
+    
+    .submenu1 .submenu1 li .smenu-bar:hover {
+        background-color: var(--ligth);
+        color:var(--dark);
+    }
+
 }
