@@ -54,6 +54,10 @@
     text-transform: uppercase;
 }
 
+.tab1 > a:hover {
+    color:white;
+}
+
 .nav1 a {
     display:flex;
     text-decoration:none;
@@ -173,7 +177,8 @@
         display:grid;
         grid-template-columns: calc(100vw - 30px) 30px;
         width:100%;
-        padding:20px 0px 0 10px ;
+        padding:20px 0px 20px 10px;
+        border-bottom: 1px solid rgb(26, 25, 25);
     }
 
     .logo1 h1 {
@@ -289,6 +294,10 @@
 
     .has-menu a:hover {
         color:var(--dark);
+    }
+
+    .tab1 > a:hover {
+        color:white;
     }
 
 }
