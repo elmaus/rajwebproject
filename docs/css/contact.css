@@ -18,5 +18,6 @@
 @media only screen and (max-width:900px) {
     .contact_form_container {
         border:none;
+        padding-top:30px;
     }
 }
