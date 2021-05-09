@@ -13,3 +13,10 @@
     padding:50px 30px 30px 30px;
     border:solid 1px grey;
 }
+
+
+@media only screen and (max-width:900px) {
+    .contact_form_container {
+        border:none;
+    }
+}

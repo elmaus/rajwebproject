@@ -13,9 +13,8 @@
 .navbar1 {
     display:flex;
     flex-direction:row;
-    justify-content: space-between;
     align-items: center;
-    padding:20px 60px 0px 60px;
+    padding:0 60px;
     background-color:var(--dark);
     font-family:'Poppins', sans-serif;
 }
@@ -27,14 +26,14 @@
 .logo1 {
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
-    padding-bottom:10px;
+    margin:auto;
+    width:300px;
 }
 
 .logo1 h1 {
     color:var(--ligth);
-    align-self: center;
 }
 
 .nav1 {
@@ -42,24 +41,26 @@
     position:relative;
     width:100%;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-around;
+    align-items: center;
     right:0px;
+    padding-top:15px;
 }
 .nav1 li {
     list-style: none;
+}
+
+.tab1 > a {
+    text-transform: uppercase;
 }
 
 .nav1 a {
     display:flex;
     text-decoration:none;
     color:var(--ligth);
+    padding:5px 0px 5px 15px;
     font-size:1rem;
-    margin:0 12px;
     font-weight: 700;
-}
-
-.tab1 a {
-    text-transform:uppercase;
 }
 
 .arrowtab {
@@ -67,7 +68,7 @@
     width:9px;
     height:9px;
     margin-left:5px;
-    margin-top:6px;
+    margin-top:7px;
     border-right: solid 4px var(--ligth);
     border-bottom: solid 4px var(--ligth);
     transform:rotate(-45deg);
@@ -80,6 +81,7 @@
 .smenu-bar {
     position:relative;
     width:100%;
+    padding-left:20px;
     display:flex;
     flex-direction: row;
     align-items:center;
@@ -116,7 +118,7 @@
     background:var(--ligth);
     display: none;
     width:400px;
-    padding: 20px 0px;
+    padding: 20px 0px 20px 0px;
     transition:visibility .3ms ease-in-out;
     border:solid 1px grey;
     border-radius: 4px;
@@ -124,15 +126,18 @@
     box-shadow: 2px 2px 5px 2px rgba(1, 1, 1, .5);
 }
 
+.has-menu a:hover {
+    color:var(--ligth);
+}
 
 .submenu1 li .smenu-bar:hover {
     background-color: #494848;
-    color:ver(--ligth);
+    color:var(--ligth);
 }
 
 .submenu1 .submenu1 li .smenu-bar:hover {
     background-color: #494848;
-    color:ver(--ligth);
+    color:var(--ligth);
 }
 
 
@@ -165,10 +170,15 @@
     }
 
     .logo1 {
-        display:flex;
-        flex-direction: row;
-        justify-items:space-between;
+        display:grid;
+        grid-template-columns: calc(100vw - 30px) 30px;
         width:100%;
+        padding:20px 0px 0 10px ;
+    }
+
+    .logo1 h1 {
+        position:relative;
+        margin:auto;
     }
     
     .nav1 {
@@ -179,11 +189,11 @@
     }
 
     .menu1 {
-        display:absolute;
+        display:relative;
         width:30px;
         height:3px;
         background-color: var(--ligth);
-        right:20px;
+        margin-right:0px;
         cursor:pointer;
     }
 
@@ -209,7 +219,7 @@
 
 
     .nav1 a {
-        margin:10px 15px;
+        margin:10px 15px 10px 0;
     }
 
     .has-menu {
@@ -219,29 +229,27 @@
     .submenu1 {
         position:relative;
         width:100vw;
-        left:10;
+        left:0;
         right:0;
         border:none;
-        padding-top:0;
-        padding-bottom:0;
-        padding-right:20px;
         box-shadow: none;
+        padding-left:0;
     }
 
     .submenu1 .submenu1 {
         left:20px;
         width:calc(100vw - 20px);
-    
     }
 
     .smenu-bar {
         width:100vw;
+        padding-right:20px;
     }
 
     .submenu1 .smenu-bar {
         width:calc(100vw - 20px);
         left:20px;
-        padding-right:0;
+        padding-right:20;
         margin-right:0;
     }
 
@@ -276,6 +284,10 @@
     
     .submenu1 .submenu1 li .smenu-bar:hover {
         background-color: var(--ligth);
+        color:var(--dark);
+    }
+
+    .has-menu a:hover {
         color:var(--dark);
     }
 
