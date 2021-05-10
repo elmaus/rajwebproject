@@ -31,7 +31,7 @@
     justify-content: right;
     align-items: center;
     margin:auto;
-    width:300px;
+    width:250px;
 }
 
 .logo1 h1 {
@@ -64,8 +64,8 @@
     display:flex;
     text-decoration:none;
     color:var(--light_green);
-    padding:5px 0px 5px 15px;
-    font-size:1rem;
+    padding:5px 0px 5px 10px;
+    font-size:.9rem;
     font-weight: 700;
 }
 
@@ -74,9 +74,9 @@
     width:9px;
     height:9px;
     margin-left:5px;
-    margin-top:7px;
-    border-right: solid 4px var(--ligth);
-    border-bottom: solid 4px var(--ligth);
+    margin-top:5px;
+    border-right: solid 4px var(--light_green);
+    border-bottom: solid 4px var(--light_green);
     transform:rotate(-45deg);
 }
 
@@ -199,7 +199,7 @@
         display:relative;
         width:30px;
         height:3px;
-        background-color: var(--ligth);
+        background-color: var(--light_green);
         margin-right:0px;
         cursor:pointer;
     }
@@ -209,7 +209,7 @@
         position:absolute;
         width:30px;
         height:3px;
-        background-color: var(--ligth);
+        background-color: var(--light_green);
         transform: translateY(7px);
 
     }
@@ -219,7 +219,7 @@
         position:absolute;
         width:30px;
         height:3px;
-        background-color: var(--ligth);
+        background-color: var(--light_green);
         transform: translateY(-7px);
 
     }
