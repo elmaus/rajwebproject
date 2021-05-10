@@ -3,6 +3,7 @@
     --dark:#302f2f;
     --ligth:rgb(223, 216, 216);
     --dark_green:rgb(1, 33, 36);
+    --light_green:rgb(204, 250, 242);
 }
 
 * {
@@ -34,7 +35,7 @@
 }
 
 .logo1 h1 {
-    color:var(--ligth);
+    color:var(--light_green);
 }
 
 .nav1 {
@@ -62,7 +63,7 @@
 .nav1 a {
     display:flex;
     text-decoration:none;
-    color:var(--ligth);
+    color:var(--light_green);
     padding:5px 0px 5px 15px;
     font-size:1rem;
     font-weight: 700;
