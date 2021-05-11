@@ -23,4 +23,9 @@ body {
     width:100vw;
     color:var(--ligth);
     background-color:var(--dark);
+} 
+
+.card-grid {
+    display:grid;
+    grid-template-columns:auto;
 }
