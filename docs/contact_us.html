@@ -87,31 +87,40 @@
                 
                 <div class="row g-3">
                     <div class="col-md-6">
-                        <label for="inputEmail4" class="form-label">First Name</label>
-                        <input type="text" name="name" class="form-control" id="inputEmail4" placeholder="Your firstname">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="inputPassword4" class="form-label">Last Name</label>
-                        <input type="text" name="surname" class="form-control" id="inputPassword4" placeholder="Your lastname">
+                        <input type="text" name="name" class="form-control" id="inputPassword4" placeholder="Your lastname">
                     </div>
                     
                     <div class="col-12">
-                        <label for="inputAddress" class="form-label">Email</label>
-                        <input type="email" name="email" class="form-control" id="inputAddress" placeholder="Eg. example@email.com">
+                        <input type="email" name="email" class="form-control" id="inputAddress" placeholder="Email">
                     </div>
 
                     <div class="col-12">
-                        <label for="inputAddress" class="form-label">Phone Number</label>
-                        <input type="number" name="number" class="form-control" id="inputAddress" placeholder="Eg. +1800 000000">
+                        <input type="number" name="number" class="form-control" id="inputAddress" placeholder="Phone">
                     </div>
 
                     <div class="col-12">
-                        <label for="inputAddress" class="form-label">Subject</label>
-                        <input type="text" name="subject" class="form-control" id="inputAddress" placeholder="Eg. courses">
+                        <select class="form-select form-select-md mb-3" name="course" aria-label=".form-select-lg example">
+                            <option selected>Select a Course</option>
+                            <option value="NEBOSH">NEBOSH</option>
+                            <option value="ESC">European Safety Council</option>
+                            <option value="IOSH">Institution of Occupationnal Safety and Health</option>
+                            <option value="AOSH">AOSH</option>
+                            <option value="OTHAM">OTHAM</option>
+                            <option value="ISO">ISO</option>
+                        </select>
                     </div>
 
                     <div class="col-12">
-                        <label for="inputAddress" class="form-label">Message</label>
+                        <select class="form-select form-select-md mb-3" name="location" aria-label=".form-select-lg example">
+                            <option selected>Select Location</option>
+                            <option value="Saudi Arabia">Saudi Arabia</option>
+                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                            <option value="Vizag">Visag</option>
+                            <option value="Bihar">Bihar</option>
+                        </select>
+                    </div>
+
+                    <div class="col-12">
                         <textarea type="text" name="message" class="form-control" id="inputAddress"></textarea>
                     </div>
                     <div class="col-auto">
