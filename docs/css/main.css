@@ -31,6 +31,7 @@ body {
     grid-row-gap:50px;
     grid-column-gap:50px;
     width:75vw;
+    padding-top:50px;
 }
 
 .card-shadow {
@@ -42,5 +43,6 @@ body {
         grid-template-columns:auto;
         grid-row-gap:0px
         width:100vw;
+        padding-top:0px
     }
 }
