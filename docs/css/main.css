@@ -30,7 +30,7 @@ body {
     grid-template-columns:1fr 1fr;
     
     width:85vw;
-    margin:100px auto 20px;
+    margin:100px auto 20px auto;
 }
 
 .mymedia { 
