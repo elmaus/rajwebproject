@@ -28,7 +28,7 @@ body {
 .card-grid {
     display:grid;
     grid-template-columns:1fr 1fr;
-    
+    width:85vw;
     
     margin-top:100px
 }
