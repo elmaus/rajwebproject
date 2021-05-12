@@ -34,15 +34,16 @@ body {
 }
 
 .mymedia { 
-    display:flex;
-    flex-direction:row;
+    display:grid;
+    grid-template-columns:1fr 2fr;
     padding:0px 25px 50px 25px;
 
 }
 
 .mymedia img {
-    width:180px;
-    height:180px;
+    position:relative;
+    width:100%;
+
 } 
 .mymedia-body {
     display:flex;
