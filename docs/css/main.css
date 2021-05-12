@@ -33,9 +33,20 @@ body {
     margin-top:100px;
 }
 
-.mymedia img {
-    width:80px;
-    height: auto;
+.mymedia { 
+    display:grid;
+    grid-template-columns:150px auto;
+    grid-row-gap:10px;
+
+}
+
+.media img {
+    width:150px;
+    height:auto;
+} 
+.my media-body {
+    display:flex;
+    flex-direction:column;
 } 
 
 @media only screen and (max-width:900px) {
