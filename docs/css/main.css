@@ -34,9 +34,9 @@ body {
 }
 
 .mymedia { 
-    display:grid;
-    grid-template-columns:150px auto;
-    grid-row-gap:10px;
+    display:flex;
+    flex-direction:row;
+    
 
 }
 
