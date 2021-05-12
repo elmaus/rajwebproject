@@ -31,7 +31,7 @@
     justify-content: right;
     align-items: center;
     margin:auto;
-    width:250px;
+    width:100px;
 }
 
 .logo1 img {
@@ -66,8 +66,8 @@
     display:flex;
     text-decoration:none;
     color:var(--light_green);
-    padding:5px 0px 5px 10px;
-    font-size:.8rem;
+    padding:5px 0px 5px 8px;
+    font-size:.7rem;
     font-weight: 700;
 }
 
