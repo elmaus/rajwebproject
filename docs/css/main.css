@@ -42,7 +42,7 @@ body {
 
 .mymedia img {
     width:150px;
-    height:auto;
+    height:150px;
 } 
 .mymedia-body {
     display:flex;
