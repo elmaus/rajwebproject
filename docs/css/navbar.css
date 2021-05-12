@@ -31,7 +31,6 @@
     justify-content: right;
     align-items: center;
     margin:auto;
-    width:100px;
 }
 
 .logo1 img {
@@ -67,14 +66,14 @@
     text-decoration:none;
     color:var(--light_green);
     padding:5px 0px 5px 8px;
-    font-size:.7rem;
+    font-size:.8rem;
     font-weight: 700;
 }
 
 .arrowtab {
     position:relative;
-    width:9px;
-    height:9px;
+    width:8px;
+    height:8px;
     margin-left:5px;
     margin-top:5px;
     border-right: solid 4px var(--light_green);
