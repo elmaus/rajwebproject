@@ -44,7 +44,7 @@ body {
     width:150px;
     height:auto;
 } 
-.my media-body {
+.mymedia-body {
     display:flex;
     flex-direction:column;
 } 
