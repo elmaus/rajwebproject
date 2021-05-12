@@ -34,10 +34,12 @@ body {
 }
 
 .mymedia { 
-    display:grid;
+    display:grid; 
+    align-items:center;
+    justify-content:center;
     grid-template-columns:1fr 2fr;
     padding:0px 25px 50px 25px;
-
+    margin-bottom:5px;
 }
 
 .mymedia img {
