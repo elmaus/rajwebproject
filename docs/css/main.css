@@ -59,6 +59,7 @@ body {
         grid-row-gap:0;
         width:100vw;
         padding:20px 0px 0px 0px;
+        margin-top:40px;
     }
    .mymedia {
        border:1px solid grey;
