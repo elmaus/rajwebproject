@@ -36,7 +36,7 @@ body {
 .mymedia { 
     display:grid; 
     align-items:center;
-    justify-content:center;
+
     grid-template-columns:1fr 2fr;
     padding:20px
     margin-bottom:50px;
