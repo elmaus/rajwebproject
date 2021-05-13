@@ -38,8 +38,8 @@ body {
     align-items:center;
     justify-content:center;
     grid-template-columns:1fr 2fr;
-    padding:0px 25px 50px 25px;
-    margin-bottom:5px;
+    padding:20px
+    margin-bottom:50px;
 }
 
 .mymedia img {
@@ -50,7 +50,8 @@ body {
 .mymedia-body {
     display:flex;
     flex-direction:column;
-    padding:20px
+    padding-left:20px;
+    align-items:center;
 } 
 
 @media only screen and (max-width:900px) {
@@ -65,7 +66,7 @@ body {
        border:1px solid grey;
        padding: 20px;
    } 
-   .mymedia-body {
-       padding:20px 0px 0px 10px;
-   } 
+
+       
+
 }
