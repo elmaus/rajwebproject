@@ -10,8 +10,28 @@ body {
   background-image:linear-gradient(to bottom, rgb(140, 248, 78), green);
 }
 
-.carousel-darken {
-  background-image:rgba(0,0,0,0.7);
+.main-title {
+  position:absolute;
+  top:15vh;
+  left:50vw;
+  transform: translateX(-50%);
+  z-index: 1000;
+  color:white;
+  font-size:48px;
+}
+
+.slide_image1 {
+  background-image:url(images/slide1.jpg);
+  width:100vw;
+  height: 50vh;
+}
+
+.car_darker {
+  position:relative;
+  width:100%;
+  height: 100%;
+  z-index: 555;
+  background-image:linear-gradient(to bottom rgba(0,0,0,0.7) rgba(100, 100, 100 .7));
 }
 
 .footer {
@@ -38,8 +58,8 @@ body {
     align-items:center;
 
     grid-template-columns:1fr 2fr;
-    padding:20px
-    margin-bottom:50px;
+    padding:20px;
+    margin-bottom:40px;
 }
 
 .mymedia img {
@@ -65,7 +85,13 @@ body {
    .mymedia {
        border:1px solid grey;
        padding: 20px;
-   } 
+   }
+
+    .main-title {
+      font-size: 1.5rem;
+      top:1vh;
+      text-align: center;
+    }
 
        
 
