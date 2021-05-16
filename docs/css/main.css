@@ -187,7 +187,6 @@ body {
 
     .big-media {
       flex-direction: column;
-      margin-top:20px;
       border-bottom:solid rgb(155, 153, 153) 1px;
     }
 
