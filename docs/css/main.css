@@ -50,9 +50,8 @@ body {
     position:relative;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     padding:30px 10px;
-    color:rgb(214, 211, 211);
+    color:rgb(248, 242, 242);
     justify-content: center;
-    background-color: rgb(158, 153, 153);
 }
 
 .mymedia { 
@@ -83,7 +82,8 @@ body {
 .big-media {
   display:flex;
   flex-direction:row;
-  padding:0 20px;
+  padding:20px 20px;
+  background-color: #1b1b1b;
 }
 
 .big-media-image {
@@ -94,18 +94,28 @@ body {
 }
 
 .big-media-content {
+  position:relative;
   flex:50%;
   justify-content: space-around;
   align-items:center;
   font-size:1.5rem;
+  color:rgb(214, 208, 208);
   padding:70px;
+  -webkit-animation: big-media-content-animation 1s forwards;
+  animation: big-media-content-animation 1s forwards;
+}
+
+@keyframes big-media-content-animation {
+  from {
+    transform:translateX(-40px);
+  }
+  to {transform:translateX(0px)}
 }
 
 .quote {
   display:flex;
   flex-direction:column;
   background-color: rgb(255, 225, 0);
-  margin-top:40px;
   justify-content: center;
 }
 
@@ -114,11 +124,12 @@ body {
   position:relative;
   padding:10px 20px;
   border-radius: 30px;
-  width:200px;
+  width:160px;
   align-self: center;
   margin-top:40px;
   background-color:red;
   cursor:pointer;
+  transition: all .5s ease-in-out;
 }
 
 .contact-us-btn a {
@@ -130,7 +141,7 @@ body {
 }
 
 .contact-us-btn:hover {
-  background-color:white;
+  width:200px;
 }
 
 .contact-us-btn:hover a {

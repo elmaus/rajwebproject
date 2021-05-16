@@ -17,7 +17,7 @@
     flex-direction:row;
     align-items: center;
     padding:0 20px;
-    background-color:var(--dark_green);
+    background-color:var(--dark);
     font-family:'Poppins', sans-serif;
 }
 
@@ -76,7 +76,7 @@
 .nav1 a {
     display:flex;
     text-decoration:none;
-    color:var(--light_green);
+    color:var(--ligth);
     padding:5px 0px 5px 8px;
     font-size:.7rem;
     font-weight: 700;
@@ -88,8 +88,8 @@
     height:8px;
     margin-left:5px;
     margin-top:5px;
-    border-right: solid 4px var(--light_green);
-    border-bottom: solid 4px var(--light_green);
+    border-right: solid 4px var(--ligth);
+    border-bottom: solid 4px var(--ligth);
     transform:rotate(-45deg);
 }
 
@@ -143,6 +143,7 @@
     border-radius: 4px;
     z-index: 1000;
     box-shadow: 2px 2px 5px 2px rgba(1, 1, 1, .5);
+    z-index:2000
 }
 
 .has-menu a:hover {
@@ -217,7 +218,7 @@
         display:relative;
         width:30px;
         height:3px;
-        background-color: var(--light_green);
+        background-color: var(--ligth);
         margin-right:50px;
         cursor:pointer;
     }
@@ -227,7 +228,7 @@
         position:absolute;
         width:30px;
         height:3px;
-        background-color: var(--light_green);
+        background-color: var(--ligth);
         transform: translateY(7px);
 
     }
@@ -237,7 +238,7 @@
         position:absolute;
         width:30px;
         height:3px;
-        background-color: var(--light_green);
+        background-color: var(--ligth;
         transform: translateY(-7px);
 
     }
