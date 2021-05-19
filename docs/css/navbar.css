@@ -52,7 +52,6 @@
 .nav1 {
     display:flex;
     position:relative;
-    align-items: center;
     width:100%;
     flex-direction: row;
     justify-content:right;
@@ -77,7 +76,7 @@
     display:flex;
     text-decoration:none;
     color:var(--ligth);
-    padding:5px 0px 5px 5px;
+    padding:5px 0px 5px 20px;
     font-size:.9rem;
     font-weight: 700;
 }
