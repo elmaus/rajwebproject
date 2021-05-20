@@ -116,6 +116,7 @@ a .mymedia .mymedia-body p {
     background-color: white;
     z-index:1100;
     box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, .4);
+    text-decoration:none;
 }
 
 .mymedia-body p {
