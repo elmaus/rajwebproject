@@ -5,10 +5,6 @@
   --linear-grey: linear-gradient(45deg, rgb(46, 42, 58), rgb(48, 78, 122));
 }
 
-a {
-   text-decoration:none;
-}
-
 body {
     background-color:rgb(156, 159, 160);
 }
@@ -63,6 +59,10 @@ body {
     justify-content: center;
     background-image:var(--linear-grey);
     height:230px;
+}
+
+a mymedia mymedia-body p {
+    text-decoration: none;
 }
 
 .mymedia { 
