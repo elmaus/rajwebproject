@@ -5,7 +5,7 @@
   --linear-grey: linear-gradient(45deg, rgb(46, 42, 58), rgb(48, 78, 122));
 }
 
-* {
+a {
    text-decoration:none;
 }
 
