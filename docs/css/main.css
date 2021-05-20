@@ -194,6 +194,8 @@ a mymedia mymedia-body p {
 .course-container {
   max-width:1000px;
   margin:auto;
+  padding:0 40px;
+  
 }
 
 .footer-grid {
