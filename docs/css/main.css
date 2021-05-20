@@ -65,7 +65,7 @@ a {
     height:230px;
 }
 
-a mymedia mymedia-body p {
+a .mymedia .mymedia-body p {
     text-decoration: none;
 }
 
