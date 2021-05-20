@@ -9,6 +9,10 @@ body {
     background-color:rgb(156, 159, 160);
 }
 
+a {
+  text-decoration:none;
+}
+
 .main_header {
   width:100vw;
   height:100vh;
