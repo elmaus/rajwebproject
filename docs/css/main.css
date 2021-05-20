@@ -169,6 +169,11 @@ body {
   color:black;
 }
 
+.course-container {
+  max-width:1000px;
+  margin:auto;
+}
+
 @media only screen and (max-width:900px) {
     .card-grid {
         position:relative;

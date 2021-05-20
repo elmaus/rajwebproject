@@ -78,18 +78,18 @@
     color:var(--ligth);
     padding:5px 0px 5px 15px;
     font-size:.9rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .arrowtab {
     position:relative;
     width:8px;
     height:8px;
-    margin-left:5px;
+    margin-left:8px;
     margin-top:5px;
     border-right: solid 4px var(--ligth);
     border-bottom: solid 4px var(--ligth);
-    transform:rotate(-45deg);
+    transform:rotate(45deg);
 }
 
 .has-menu {
