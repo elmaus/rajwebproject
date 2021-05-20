@@ -17,7 +17,7 @@
 
 .about-card-div-img-1 {
     width:100vw;
-    height: 400px;
+    height: 500px;
     background-image:url('../images/about-img-1.jpg');
     background-position: center;
     background-size: cover;
@@ -33,7 +33,7 @@
 
 .about-card-div-img-2 {
     width:100vw;
-    height: 400px;
+    height: 500px;
     background-image:url('../images/about-img-2.jpg');
     background-position: center;
     background-size: cover;
@@ -42,7 +42,7 @@
 
 .about-card-div-img-3 {
     width:100vw;
-    height: 400px;
+    height: 500px;
     background-image:url('../images/about-img-3.jpg');
     background-position: center;
     background-size: cover;

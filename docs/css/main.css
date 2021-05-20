@@ -85,7 +85,16 @@ body {
     position:relative;
     width:90%;
     margin:0 auto;
+    opacity:.9;
+    transition:all .5s ease-in-out;
+    cursor:pointer;
 } 
+
+.mymedia img:hover {
+  transform:scale(1.1);
+  opacity: 1;
+}
+
 .mymedia-body {
     display:none;
     position:relative;
@@ -225,5 +234,10 @@ body {
     .big-media-content {
       font-size:1.5rem;
       padding:30px;
+
+    }.course-container {
+      width:100vw;
+      padding:0 20px;
     }
+
 }
