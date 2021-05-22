@@ -3,6 +3,7 @@
   --light-green:rgb(212, 253, 65);
   --linear-green: linear-gradient(45deg, rgb(75, 128, 0), var(--light-green), yellow);
   --linear-grey: linear-gradient(45deg, rgb(46, 42, 58), rgb(48, 78, 122));
+  --dark-green: rgb(1, 41, 34);
 }
 
 body {
@@ -51,7 +52,7 @@ a {
     align-items:center;
     width:100vw;
     color:var(--ligth);
-    background-color:var(--dark);
+    background-color:var(--dark-green);
 } 
 
 .card-grid {
@@ -131,7 +132,7 @@ a .mymedia .mymedia-body p {
   display:flex;
   flex-direction:row;
   padding:20px 20px;
-  background-color: #1b1b1b;
+  background-color: rgb(1, 41, 34);;
 }
 
 .big-media-image {
@@ -206,6 +207,11 @@ a .mymedia .mymedia-body p {
   width:90vw;
   justify-content: center;
 }
+.course-image {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .social_icons {
   display: flex;
@@ -213,12 +219,26 @@ a .mymedia .mymedia-body p {
   justify-content: space-evenly;
   align-items: center;
 }
-
+.logo_footer {
+  display:flex;
+  flex-direction:row;
+  padding-bottom:20px;
+}
+.logo_footer img {
+  width:47px;
+  height:47px;
+}
+.footer_submit {
+  background-color: transparent;
+  border:none;
+  padding:2px;
+}
+.logo_footer h6 {
+  font-size:13px;
+}
 .footer-featured {
   display:flex;
   flex-direction:column;
-  justify-content: center;
-  align-items: center;
   padding:40px;
 }
 .footer-featured li {

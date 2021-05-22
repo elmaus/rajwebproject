@@ -2,7 +2,7 @@
 :root{
     --dark:#302f2f;
     --ligth:rgb(223, 216, 216);
-    --dark_green:rgb(1, 33, 36);
+    --dark_green: rgb(1, 41, 34);
     --light_green:rgb(204, 250, 242);
 }
 
@@ -17,7 +17,7 @@
     flex-direction:row;
     align-items: center;
     padding:10px 20px;
-    background-color:var(--dark);
+    background-color:var(--dark_green);
     font-family:'Poppins', sans-serif;
 }
 
