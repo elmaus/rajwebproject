@@ -53,6 +53,12 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.bio-image {
+    position:relative;
+    margin:20px;
+    width:100%;
+    height:100%;
+}
 
 @media only screen and (max-width:900px) {
     .about-card-div-img-1 .about-card-div-img-2 .about-card-div-img-3 {
