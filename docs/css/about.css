@@ -30,6 +30,11 @@
     color:rgb(209, 204, 204);
 
 }
+.about-card-2-column {
+    position:relative;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
 
 .about-card-div-img-2 {
     width:100vw;
@@ -56,5 +61,8 @@
 
     .about-card-div-content {
         padding:20px;
+    }
+    .about-card-2-column {
+        grid-template-columns:1fr;
     }
 }
