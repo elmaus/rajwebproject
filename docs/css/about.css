@@ -32,8 +32,10 @@
 }
 .about-card-2-column {
     position:relative;
-    display:grid;
-    grid-template-columns:1fr 1fr;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
 }
 
 .about-card-div-img-2 {
