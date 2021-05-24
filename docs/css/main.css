@@ -255,8 +255,8 @@ a .mymedia .mymedia-body p {
   display:grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
   grid-gap:50px;
-  width:100%;
-  
+  width:80%;
+  margin:50px;
 }
 
 @media only screen and (max-width:900px) {
