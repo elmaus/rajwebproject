@@ -276,9 +276,8 @@ a .mymedia .mymedia-body p {
 
 .card_body-img {
   position:relative;
-  width:20px;
+  width:70px;
   height:auto;
-  border:1px solid yellow;
 }
 
 /* .all_courses_container a {
