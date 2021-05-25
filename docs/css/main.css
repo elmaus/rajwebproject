@@ -262,7 +262,7 @@ a .mymedia .mymedia-body p {
   display:grid;
   grid-template-columns:1fr 5fr;
 }
-.card-body-img {
+.card_body-img {
   position:relative;
   width:70px;
   height:auto;
