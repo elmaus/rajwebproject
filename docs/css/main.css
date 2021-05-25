@@ -260,7 +260,7 @@ a .mymedia .mymedia-body p {
   width:80%;
   margin:50px auto;
 }
-.all_courses_container {
+.all_courses_container a {
   box-shodow:2px 2px 10px rgba(0, 0, 0, .6);
 }
 
