@@ -267,13 +267,6 @@ a .mymedia .mymedia-body p {
   box-shadow:2px 2px 10px 5px rgba(0, 0, 0, .6);
 }
 
-.card_body {
-  position:relative;
-  width:100%;
-  display:grid;
-  grid-template-columns:1fr 5fr;
-}
-
 .card_body-img {
   position:relative;
   width:70px;
