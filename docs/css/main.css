@@ -266,6 +266,7 @@ a .mymedia .mymedia-body p {
   position:relative;
   width:70px;
   height:auto;
+  border:1px solid yellow;
 }
 .all_courses_container {
   position:relative;
