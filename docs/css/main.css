@@ -200,7 +200,8 @@ a .mymedia .mymedia-body p {
   
 }
 
-.footer-grid {
+.footer-grid { 
+  position:relative
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin:auto;
@@ -326,7 +327,7 @@ a .mymedia .mymedia-body p {
 
     .footer-grid {
       grid-template-columns:1fr;
-      grid-row-gap:50px;
+      grid-row-gap:20px;
     }
     .footer-featured {
       border-bottom: solid grey 1px;
