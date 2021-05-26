@@ -271,6 +271,7 @@ a .mymedia .mymedia-body p {
 }
 .all_courses_container a:hover {
   transform:scale(1.1);
+  background-color:grey;
 }
 .card_body-img {
   position:relative;
