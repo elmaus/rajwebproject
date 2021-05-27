@@ -216,7 +216,7 @@
         display:relative;
         width:30px;
         height:3px;
-        background-color: #F9A7B0;
+        background-color: var(--ligth);
         margin-right:50px;
         cursor:pointer;
     }
