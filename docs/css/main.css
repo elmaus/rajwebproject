@@ -153,6 +153,9 @@ a .mymedia .mymedia-body p {
   -webkit-animation: big-media-content-animation 1s forwards;
   animation: big-media-content-animation 1s forwards;
 }
+.big-media-content p {
+  text-align: justify;
+}
 
 @keyframes big-media-content-animation {
   from {
@@ -244,6 +247,10 @@ a .mymedia .mymedia-body p {
   display:flex;
   flex-direction:column;
   padding:20px 20px;
+}
+
+.footer-featured p {
+  text-align: justify;
 }
 /* .footer-featured:not(:last-child) {
   border-right:solid rgb(5, 71, 54) 1px;
