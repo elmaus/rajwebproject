@@ -294,8 +294,9 @@ a .mymedia .mymedia-body p {
 
 .course-container h1 {
   font-family: 'Chonburi', 'cursive';
+  color:blue;
 }
-.course-container h1, h2, h3, h4 {
+.course-container h2, h3, h4 {
   color:var(--dark-green);
   font-weight: bold;
 }
