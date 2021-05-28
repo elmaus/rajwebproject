@@ -31,10 +31,13 @@
     width:100vw;
     height: calc(100vh + 50px);
     padding:50px 30px;
-    
+    background-color:rgb(1, 41, 34);
+    color:white;
 }
 
 .register_form_container {
+    display:grid;
+    grid-template-columns:1fr 1fr;
     position:relative;
     max-width:600px;
     padding:50px 30px 30px 30px;
@@ -54,6 +57,7 @@
     }
 
     .register_form_container {
+        grid-template-columns:1fr;
         border:none;
         padding-top:30px;
     }
