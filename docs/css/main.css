@@ -349,11 +349,7 @@ a .mymedia .mymedia-body p {
   color:white;
 }
 
-.register-container {
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  grid-column-gap:40px;
-}
+
 
 
 @media only screen and (max-width:900px) {
@@ -433,7 +429,5 @@ a .mymedia .mymedia-body p {
       width:100%;
       height:auto;
     }
-    .register-container {
-      grid-template-columns:1fr;
-    }
+    
 }
