@@ -34,6 +34,10 @@
     padding:50px 30px;
 }
 
+.register-container h4 {
+    color:blue;
+}
+
 .register_form_container {
     position:relative;
     padding:50px 30px 30px 30px;
