@@ -38,6 +38,12 @@
     align-items:center;
 }
 
+.bio-box {
+    position:relative;
+    display:flex;
+    flex-direction:column;
+}
+
 .about-card-div-img-2 {
     width:100vw;
     height: 500px;
