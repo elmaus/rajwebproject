@@ -32,9 +32,10 @@
 }
 .about-card-2-column {
     position:relative;
+    width:100%;
     display:grid;
     grid-template-columns:2fr 1fr;
-    justify-content:space-between;
+    grid-gap:40px;
     align-items:center;
 }
 
