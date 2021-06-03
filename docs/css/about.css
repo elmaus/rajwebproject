@@ -32,8 +32,8 @@
 }
 .about-card-2-column {
     position:relative;
-    display:flex;
-    flex-direction:row;
+    display:grid;
+    grid-template-columns:2fr 1fr;
     justify-content:space-between;
     align-items:center;
 }
@@ -82,7 +82,7 @@
         padding:20px;
     }
     .about-card-2-column {
-        flex-direction:column;
+        grid-template-columns:1fr;
     }
 
     .bio-card {
