@@ -44,6 +44,11 @@
     display:flex;
     flex-direction:column;
 }
+.bio-content {
+    position:relative;
+    display:flex;
+    flex-direction:column;
+}
 
 .about-card-div-img-2 {
     width:100vw;
